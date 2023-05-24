@@ -1,0 +1,53 @@
+/* Section Testimonials Slider CSS */
+#section-testimonials {height: 350px;overflow: hidden;position: relative;margin:7px 0 10px 0;}
+#section-testimonials .slides {margin: 0;padding: 0;list-style: outside none none;display: block;width: 100%;height: 350px;overflow: hidden;}
+#section-testimonials .slides li {padding: 0;margin: 0;display: block;width: 100%;height: 350px;}
+.left-testi, .right-testi {width: 50%;height: 100%;display: block;float: left;position: relative;}
+.right-testi {float: right;}
+.left-testi {background-image: url(http://2.bp.blogspot.com/-bmfj1HndPNs/VS2YFPbBLDI/AAAAAAAACwo/vPNy0y4Fox4/s1600/bg.png);}
+.left-testi p {color: #FFF;text-align: center;font-weight: 400;font-size: 1.4em;padding: 25px 15px;}
+.bar {display: block;margin: 10px 0 10px 0;width: 290px;height: 4px;background-color: #fff;}
+.testi-1 .left-testi {background-color: #FF5500;}
+.testi-1 .right-testi {background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgK6NzCmkbWFlxbBe36MDVc9cPw7Rlfo_fJZqq8c3ypW--BIxh3CO5LNfLYfNc47QC1YSdVlkUvFq0UUM2lc8bANdbn9nSWfdzzbms0FYftJ7rZqwkzLIe9tc9jwggpOUb3Bpg3ZZYusMXQCIqBI96gingT2FODplocxl35JoeGzC-DfpqyeJEs1wVkng/s720/theme_1.jpg);}
+.testi-2 .left-testi {background-color: #1E8AD2;}
+.testi-2 .right-testi {background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXU5maPCtAnZDdrtBCjekIwRqeOMKy26Fh8rvV8hYcMzwj2aG6cBngvcd8k_zXP122pJBp4eZiRzwmS7h8M88HC6-01cFhkzg88VmiUmuTW5OTNp91GQEaOII_YqsKwe1iQ1CNEUXyHCXJQFOg270YUISK_81WVhhSXoVnQcg2bFK2ZKl_BjKFEmU5Cg/s720/theme_2.jpg);}
+.testi-3 .left-testi {background-color: #198C58;}
+.testi-3 .right-testi {background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYy-h13Yaf-gDQupd9QnS6T8acvGmfWSm1M9MYJNWyNJxwvvXPZNSiJJeh9ELh0yLPlYmffyZofCxjNIHpJRlA3R_Oi7KcmJEUvz9YIYW0RT0dahYO90JIyxkbbbShWM4-nu3NYUDX720zGN8yhXMonh5lOlxnyGCNZHpWlMYtt8XSfbFmPacqbI5zrA/s720/theme_3.jpg);}
+.testi-4 .left-testi {background-color: #FF5500;}
+.testi-4 .right-testi {background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNtK95cdubT06sn_qxbBvJAo0y35zpj-quiUSwrHF9fLbyk7T3ZSYiKatBNj8wbGaaHfklEPPmBufWqiD6NqW500e7yeSOvdF9HOsU0JTk9o4UQYYv-JU3d_4xgFNLY0GPtUyp1lxjepaQ9es2JfOF2QSLDolTkWyujQMc1ABWdVTvYalEoOyH7UYtNQ/s720/theme_4.jpg);}
+.testi-5 .left-testi {background-color: #1E8AD2;}
+.testi-5 .right-testi {background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgiRYlxQiCNpYcxjrDSK30T-02u0iiRwO5LaZa63ykxXdZejzahtrgtbXyy6ZCSzBcFWlTnpD8sErB7cp8r02nTqhMiOMH18USk_2V8-gFncfi09l1igVYr2oVk4jZZ1UQs1jBmEh5QY34QNEh4GzL9U4YOaawz9dMA7CvdIZ1aPrLWK5WITwmf1SB3BA/s720/theme_5.jpg);}
+.testi-6 .left-testi {background-color: #198C58;}
+.testi-6 .right-testi {background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgaevOoasJrqA1sVWE-YTTZdEhoD2WB-acVTJSoLw3BVsoLR_Vd8SO8A0ujummhRfvGb-JKeS3TWHeiwpFMDmJSHbEthkcfxDNhVZXbwBtGouI_5r3t6n82RL-C00zcMG8NzhSRJ6DYYvsTthJG5e7jf0l6NbTLRjXN10hivLxwIQpa7z45fseKeqqrDw/s720/theme_6.jpg);}
+.testi-7 .left-testi {background-color: #FF5500;}
+.testi-7 .right-testi {background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-pKQyWNnNt8HFtLGbhbcIGACu7TwYT2nldID81WiodgCPNJVs8YGhMXJhMaigtG8XwnGHmf2mLWot-Z5kOPyXwaDVRh-RQbbUIDRDUqGvjS1-hMgLgxwS9EdLBsq7Hw4kXjDOPY5XkJlHy7aeU8KQLYUNSLJQjCILc1xiA7AxAE3bZvJ-7Fa0QBkLHg/s720/theme_7.jpg);}
+.testi-8 .left-testi {background-color: #1E8AD2;}
+.testi-8 .right-testi {background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiv1w-ibhAjgcEUcsC7zddNpuuTd5b10ybj8ZLVfSxxzoXpXCqSKsAYmmCOCbqiohnqK_DCesVX2WQeo67U32eac0J3NR_RzPJL44R2CfiCiwK5ivQAAxUWHEoUN6U0mBh9DMfqQo080EQAsiZcCpbeyLHX9Y-S9Z-nKtbwldSFfqsxGWeQhybcnvI3BA/s720/theme_8.jpg);}
+.testi-9 .left-testi {background-color: #198C58;}
+.testi-9 .right-testi {background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh11wbwkY-z49bqIgvv-2hHVbqjxOvbPCQ2tas6K2AutUNTOSwnJcGuaOEFjbYcmPBh6ZvjNR9jkaxIBMhtrkrlHEcIiE_eiKLUDWTMseLQWNTDZevXgIaiwYQgGxKKz-zSaobdvD56ix9DY-daCpMtZC_nL0WPtqxmjjLwiCLg4ul7iaFOw7paNHbtHg/s720/theme_9.jpg);}
+.testi-10 .left-testi {background-color: #FF5500;}
+.testi-10 .right-testi {background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8IlwblrZdrKc6XW82j5LJWET3kOmjqHteLoA3zE-X6WqCj0nNjdRJI-lUFH2rDdlh6fUwPGOyidXdo0VIADx9AiLk8Cy9gQjIPkXFvPBkB7jJMkxPWX47dslq5Ym5jo2MaTshxZMzkS4xDeIpYxKleUHwmibiz_uwXkJaIwOeP2c_DtwEumx_pELSUw/s720/theme_10.jpg);}
+.testi-11 .left-testi {background-color: #1E8AD2;}
+.testi-11 .right-testi {background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUPE0tnu3VWkum5ozUjOo1lhJncYHpXHQleODQH9h2DR4iJIcIxr0OW4neF6z7VXgvy8_w36N2P7zLxaOEWskukdnUGjYqECtV02hu6lbb4ud4vFk19y9t6NqSQ2XAlqU0EINw7r5nmYesC7fjsY3z2Z4PFLTIeVeS2KjJIMgOzVV8i1fO6H6C8TGzUQ/s720/theme_11.jpg);}
+.testi-12 .left-testi {background-color: #198C58;}
+.testi-12 .right-testi {background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUmT2IDgn-cyDTecIBLhyUjZl_PbX4nBQGwN3OqbT9kzfDbu0ZJ-BVL6td6KZqfaXYBQyehdF3vT5Qs83adlFeTV2AyVXqnY99-kOnPqN3xwv1d8ZJf8uihvC_g0s7gcCjhuZC0mZt9yv8y0y1Nt1vAtGwf12VLFBappycIM8TLbdFmHr3YeScN8vN8w/s720/theme_12.jpg);}
+.right-testi img {height: 230px;width: 230px;border-radius: 100%;padding: 5px;background-color: #444;box-shadow: 0 0 2px #000;vertical-align: middle;display: block;
+margin: 15px auto 5px auto;position: relative;z-index: 3;}
+.right-testi span {color:#fff;text-align:center;display:block;margin:0px 0px;font-size:1.7em;font-weight:bold;text-shadow:3px 0 0 #000;position:relative;
+z-index: 3;}
+.flex-direction-nav {list-style: none outside none;padding: 0;margin: 0;position: absolute;top: 0;left: 0;height: 100%;width: 100%;display: block;}
+.flex-direction-nav a {height: 50px;display: block;width: 50px;left: 30px;top: 165px;position: absolute;text-align: center;line-height: 50px;background-color: rgba(68, 68, 68, 0.53);opacity: 0;visibility: hidden;font-size: 2em;border-radius: 2px;padding-right: 5px;z-index: 3;-webkit-transition: all 0.4s ease 0s;-moz-transition: all 0.4s ease 0s;-o-transition: all 0.4s ease 0s;transition: all 0.4s ease 0s;}
+.flex-direction-nav .flex-next {right: 30px;left: auto;padding-right: 0;padding-left: 5px;}
+#section-testimonials:hover .flex-direction-nav a {opacity: 1;visibility: visible;}
+.flex-direction-nav a:hover {background-color:#1e8ad2;color: #fff;}
+@media screen and (max-width:960px) {
+#section-testimonials{display:block!important}
+#section-testimonials {height: 226px;margin:0px 0 10px 0;}
+#section-testimonials .slides {height: 226px;}
+.left-testi p {font-size:12px;padding: 5px 5px;}
+.right-testi img {height: 145px;width: 145px;}
+.right-testi span {font-size: 14px;}
+.bar {margin: 5px auto 5px;width: 140px;}
+.flex-direction-nav a {left: 5px;right:5px;top: 90px;}
+.flex-direction-nav .flex-next {right: 5px;left: auto;padding-right: 0;padding-left: 5px;}
+}
